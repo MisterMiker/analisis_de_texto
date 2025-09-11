@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 from textblob import TextBlob
+from streamlit_lottie import st_lottie
+import json
 import re
 from googletrans import Translator
 
