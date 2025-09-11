@@ -6,6 +6,10 @@ import json
 import re
 from googletrans import Translator
 
+with open('laughing cat.json') as source:
+    animation=json.load(source)
+st.lottie(animation,width =350)
+
 # Configuración de la página
 st.set_page_config(
     page_title="Analizador de Texto Simple",
